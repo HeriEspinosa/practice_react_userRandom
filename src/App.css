@@ -1,0 +1,84 @@
+#button {
+    border-radius: 0.3em;
+    width: 70px;
+    height: 25px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.App {
+    min-height: 100vh;
+    background-color: #13005A; 
+    color: aliceblue;
+    padding: 2em;
+    
+    display:flex;
+    flex-direction: column;
+    gap: 3em;
+    align-items: center;
+}
+
+.App__img {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+    justify-content: center;
+    gap: 1em;
+    text-align: center;
+}
+
+.container__userRandom {
+    width: 270px;
+    height: 300px;
+    border: 1.5px solid black;
+    border-radius: 1.5em;
+    padding: 1em;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin: 0 auto;
+    background-color: #205295;
+    overflow: hidden;
+    box-shadow: 2px 4px 2px #090909e4;
+}
+
+.container__userRandom h3 {
+    color: black;
+    font-weight: 600;
+}
+
+.container__userRandom img {
+    width: 180px;
+    align-self: center;
+    border-radius: 1em;
+}
+
+.container__userRandom span {
+    font-weight: bold;
+}
+
+.form {
+    display: flex;
+    gap: 0.5em;
+}
+
+.footer {
+    margin-top: 2em;
+}
+.hr__code a {  
+    text-decoration: none;
+    text-align: center;
+}
+
+.hr__code a p {
+    font-weight: 600;
+    color:azure;
+}
+
+.hr__code a p span {
+    font-size: 1.3rem;
+    color: lawngreen;
+    cursor: pointer;
+}
