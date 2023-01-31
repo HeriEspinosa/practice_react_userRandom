@@ -44,7 +44,7 @@ function App() {
       </div>
       <div className="footer">
         <div className='hr__code'>
-          <a href="https://https://github.com/HeriEspinosa/repo_react_userRandom"><p>Hecha un Vistazo a mi Codigo <span>Aqui</span></p></a>
+          <a href="https://github.com/HeriEspinosa/repo_react_userRandom.git" target='blank'><p>Hecha un Vistazo a mi Codigo <span>Aqui</span></p></a>
         </div>
       </div>
     </div>
